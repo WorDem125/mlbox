@@ -49,7 +49,7 @@ source venv/bin/activate
 venv\Scripts\activate.bat
 
 # Установка билиотек
-*MAC
+**MAC**
 python3 -m pip install --upgrade pip
 PC
 python -m pip install --upgrade pip
