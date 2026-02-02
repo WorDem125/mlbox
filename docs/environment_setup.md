@@ -48,6 +48,23 @@ source venv/bin/activate
 **Windows (cmd)**
 venv\Scripts\activate.bat
 
+# Установка билиотек
+MAC
+python3 -m pip install --upgrade pip
+PC
+python -m pip install --upgrade pip
+MAC
+python3 -m pip install --upgrade setuptools wheel
+PC
+python -m pip install --upgrade setuptools wheel
+MAC
+pip install -r requirements.txt
+PC
+pip install -r requirements.txt
+python -c "import numpy, pandas, sklearn; print('OK')"
+
+
+
  # Если PowerShell блокирует активацию (Windows)
  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
