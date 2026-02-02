@@ -50,7 +50,7 @@ venv\Scripts\activate.bat
 
 # Установка билиотек
 **MAC**
-python3 -m pip install --upgrade pip
+**python3 -m pip install --upgrade pip**
 PC
 python -m pip install --upgrade pip
 MAC
