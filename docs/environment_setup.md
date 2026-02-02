@@ -52,6 +52,7 @@ venv\Scripts\activate.bat
 **MAC**
 
 **python3 -m pip install --upgrade pip**
+
 PC
 
 python -m pip install --upgrade pip
